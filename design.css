@@ -1,0 +1,40 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    
+}
+
+body {
+    background: cornflowerblue;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #444;
+    margin: 40px;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+}
+
+.form__input {
+    width: 100%;
+}
+
+.form__img {
+    flex: 1;
+    
+}
+
+.form__img img {
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
