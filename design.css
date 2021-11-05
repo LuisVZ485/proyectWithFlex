@@ -67,7 +67,7 @@ body {
 }
 
 .img-container div {
-    background: linear-gradient(to top, rgb(218, 22, 22), rgb(80, 23, 212));
+    background: linear-gradient(to top, rgb(80, 23, 212), #fff);
     border-radius: 50%;
     text-align: center;
     padding: 40px
@@ -100,6 +100,6 @@ body {
 
 .form input[type="submit"]:focus {
     background-color: #1c7;
-    background: linear-gradient(to bottom, #072, #050);
+    background: linear-gradient(to bottom, rgb(72, 187, 135), rgb(22, 131, 82));
 }
 
